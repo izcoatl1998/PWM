@@ -1,4 +1,6 @@
 #include <pawm.h>
+#byte TRISB=0x86
+#byte PORTB=0x86
 void main()
 {  
     int trabajo=103;
